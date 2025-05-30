@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     font-family: Arial;   
+    animation: fade 2s ease-in-out
 }
 
 .menu{
@@ -17,6 +18,8 @@
     padding: 20px;
     margin: 10px;
     font-family: Arial;
+    animation: fade 2s ease-in-out
+
 
 }
 
@@ -24,8 +27,25 @@
     color:black;
     margin-right: 40px;
     text-decoration:none;
+    transition: background-color 0.3s ease-in-out;
+    animation: fade 2s ease-in-out
     
 }
+
+.menu li a:hover{
+    background-color:cornflowerblue;
+}
+
+@keyframes fade {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    }
+    
+
 
 .about-me{
     display:flex;
@@ -33,11 +53,15 @@
     flex-direction: column;
     align-items: center;
     font-family: Arial;
+    animation: fade 2s ease-in-out
 }
 
 .my-photo{
     border: 2px solid cornflowerblue;
     box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    transform: rotate(2deg);
+    animation: fade 2s ease-in-out
+    
 }
 
 .list-skills{
@@ -45,6 +69,7 @@
     display: flex;
     justify-content: center;
     margin-right: 50px;
+    transform: rotate(4deg)
     
 
 }
@@ -54,6 +79,7 @@
     flex-direction: column;
     align-items: center;
     font-family: Arial;
+    animation: fade 2s ease-in-out
 }
 
 .table-projects{
@@ -61,6 +87,16 @@
     box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
     margin-top: 10px;
     font-family: Arial;
+}
+
+.table-projects td a{
+    color: black;
+    text-decoration:none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.table-projects li a:hover{
+    background-color:cadetblue;
 }
 
 .image-project-1{
@@ -87,6 +123,7 @@
     margin-right: 500px;
     margin-left: 500px;
     font-family: Arial;
+    animation: fade 2s ease-in-out
 
 }
 
@@ -130,4 +167,12 @@
 
 .list-social-networks{
     list-style-type:none;
+}
+
+.list-social-networks li a{
+    transition: background-color 0.3s ease-in-out;
+}
+
+.list-social-networks li a:hover{
+    background-color: cornflowerblue;
 }
