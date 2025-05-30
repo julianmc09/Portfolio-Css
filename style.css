@@ -12,27 +12,65 @@
     padding: 0;
     margin: 0;
     background-color: cadetblue;
+    border: 2px solid cadetblue;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    padding: 20px;
+    margin: 10px;
+    font-family: Arial;
 
 }
 
 .menu li a{
     color:black;
     margin-right: 40px;
-    text-decoration: none;
+    text-decoration:none;
+    
 }
 
 .about-me{
     display:flex;
-    justify-content: center;
+    justify-content:center;
     flex-direction: column;
     align-items: center;
+    font-family: Arial;
 }
 
+.my-photo{
+    border: 2px solid cornflowerblue;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+
+.list-skills{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+    
+
+}
 .projects{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    font-family: Arial;
+}
+
+.table-projects{
+    border: 2px solid cornflowerblue;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    margin-top: 10px;
+    font-family: Arial;
+}
+
+.image-project-1{
+    border: 2px solid cornflowerblue;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+}
+
+.image-project-2{
+    border: 2px solid cornflowerblue;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
 }
 
 
@@ -42,13 +80,54 @@
     align-items: center;
     padding-top: 30px;
     background-color:cadetblue;
+    border: 2px solid cadetblue;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    padding: 20px;
+    margin: 10px;
+    margin-right: 500px;
+    margin-left: 500px;
+    font-family: Arial;
 
 }
 
 .main{
     background-color:cornflowerblue;
+    border: 2px solid cornflowerblue;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    padding: 20px;
+    margin-left: 500px;
+    margin-right: 500px;
 }
 
 .body{
     background-color:cadetblue;
+}
+
+.box{
+    background-color:cadetblue;
+    
+}
+
+.name{
+    margin-left: 22px;
+    border-style: groove;
+}
+
+.email{
+    margin-left: 25px;
+    border-style: groove;
+}
+
+.message{
+    border-style:groove;
+}
+
+.button{
+    padding: 5px;
+    margin-left: 100px;
+    border-radius: 8px;
+}
+
+.list-social-networks{
+    list-style-type:none;
 }
